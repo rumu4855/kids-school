@@ -38,10 +38,21 @@
   .color-4{
     color: #5D58EF;
   }
+  .bg-1{
+    background-image: linear-gradient(to bottom, #DEF5FF, white);
+  }
+
+  .bg-2{
+    background-image: linear-gradient(to bottom, #FFF4DC, white);
+  }
+
+  .bg-3{
+    background-image: linear-gradient(to bottom, #F2E8FF, white);
+  }
 
   /* navbar style here */
 
-  header{
+  header, main{
     max-width: 1250px;
     margin: 0 auto;
   }
@@ -125,6 +136,73 @@
     display: none;
   }
 
+  /* curriculum section style here */
+
+  #curriculum{
+    margin: 60px 0;
+    background-image: url(assets/bg.png);
+  }
+
+  .title{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #000000;
+    text-align: center;
+  }
+
+  .card-container{
+    display: flex;
+    flex: 1;
+    gap: 28px;
+    margin: 80px 0;
+    text-align: center;
+    
+  }
+  .curriculum-card{
+    padding: 52px 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .card-title{
+    font-size: 1.5rem;
+    margin: 32px 0;
+    font-family: "Quicksand", serif;
+    font-weight: bold;
+  }
+
+  .card-description{
+    font-family: "Raleway", serif;
+    font-size: 1rem;
+    line-height: 30px;
+    margin-bottom: 32px;
+  }
+
+  .card-footer{
+    font-family: "Quicksand", serif;
+    font-size: 1rem;
+    font-weight: bold;
+
+  }
+
+  .icone-container{
+    text-align: center;
+  }
+
+  .icone{
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    background-color: orange;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    /* align-items: center; */
+    line-height: 50px;
+    border: none;
+
+  }
+
   /* responsive section */
 
   @media screen and (max-width: 576px) {
@@ -152,6 +230,7 @@
     .banner-content{
         text-align: center;
         padding: 12px 16px;
+        
     }
 
     .banner-img{
@@ -159,6 +238,19 @@
     }
     .banner-img img{
         width: 100%;
+    }
+
+    #curriculum{
+        margin: 12px 16px;
+    }
+
+    .card-container{
+        flex-direction: column;
+        
+    }
+
+    .icone{
+        display: none;
     }
     
   }
