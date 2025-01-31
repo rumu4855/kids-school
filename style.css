@@ -217,7 +217,7 @@
   /* stories section style here */
 
   #stories{
-    margin: 60px 0;
+    
     background-image: linear-gradient(rgba(228, 243, 244, 0.237), rgba(204, 224, 94, 0.688)), url(assets/bg.png);
   }
 
@@ -296,7 +296,76 @@
     text-align: center;
     padding-bottom: 60px;
   }
+
+  /* footer section style here */
+
+  footer{
+    background-color: #01ACFD;
+  }
+
+  .footer-container{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    flex: 1;
+    gap: 140px;
+    padding: 123px 0 174px 0;
+  }
+
+  .footer-logo-title{
+    width: 400px;
+  }
+
+  .footer-logo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+
+  .footer-logo img{
+    height: 80px;
+    width: 80px;
+    color: white;
+    
+  }
+
+  .footer-logo-title{
+    font-family: "Quicksand", serif;
+    font-size: 2rem;
+    color: white;
+    line-height: 35px;
+  }
+
+  .footer-title{
+    font-family: "Quicksand", serif;
+    color: white;
+    font-size: 1.25rem;
+  }
+
+  .footer-title{
+    font-family: "Quicksand", serif;
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 32px;
+    
+  }
+
+  .list-item{
+    list-style: none;
+    margin-bottom: 25px;
+  }
+
+  .list-link{
+    text-decoration: none;
+    color: white;
+    font-family: "Quicksand", serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
   
+  .media-link img{
+    margin-right: 10px;
+  }
 
   /* responsive section */
 
@@ -355,6 +424,18 @@
     }
 
     .stories-secondery-card{
+      margin: 0 16px;
+    }
+
+    .btn-card{
+      font-size: 0.75rem;
+      padding: 5px 10px;
+      margin-top: -15px;
+    }
+
+    .footer-container{
+      flex-direction: column;
+      gap: 30px;
       margin: 0 16px;
     }
     
