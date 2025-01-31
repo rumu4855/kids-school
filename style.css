@@ -61,7 +61,7 @@
 }
   /* navbar style here */
 
-  header, main{
+  header{
     max-width: 1250px;
     margin: 0 auto;
   }
@@ -111,6 +111,13 @@
     cursor: pointer;
   }
 
+  .marquees{
+    
+    font-family: "Raleway", serif;
+    color: red;
+
+  }
+
   .banner{
     display: flex;
     align-items: center;
@@ -151,6 +158,13 @@
     margin: 60px 0;
     background-image: url(assets/bg.png);
   }
+
+  .curriculam-container{
+    max-width: 1250px;
+    margin: 0 auto;
+  }
+
+
 
   .title{
     font-size: 3rem;
@@ -221,11 +235,17 @@
     background-image: linear-gradient(rgba(228, 243, 244, 0.237), rgba(204, 224, 94, 0.688)), url(assets/bg.png);
   }
 
+  .stories-section-container{
+    max-width: 1250px;
+    margin: 0 auto;
+  }
+
   .stories-container{
+    
     margin: 80px 0;
     display: flex;
     gap: 20px;
-    flex: 1;
+    
     
   }
 
@@ -309,7 +329,7 @@
     display: flex;
     flex: 1;
     gap: 140px;
-    padding: 123px 0 174px 0;
+    padding: 123px 0 80px 0;
   }
 
   .footer-logo-title{
