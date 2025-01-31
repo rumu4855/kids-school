@@ -49,7 +49,16 @@
   .bg-3{
     background-image: linear-gradient(to bottom, #F2E8FF, white);
   }
+.btn-bg-1{
+  background-color: #95B226;
+}
 
+.btn-bg-2{
+  background-color: #5D58F0;
+}
+.btn-bg-3{
+  background-color: #3CD8E8;
+}
   /* navbar style here */
 
   header, main{
@@ -125,7 +134,7 @@
     background-color: black;
     color: white;
     border-radius: 12px;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: bold;
     border: none;
     outline: none;
@@ -203,6 +212,92 @@
 
   }
 
+ 
+
+  /* stories section style here */
+
+  #stories{
+    margin: 60px 0;
+    background-image: linear-gradient(rgba(228, 243, 244, 0.237), rgba(204, 224, 94, 0.688)), url(assets/bg.png);
+  }
+
+  .stories-container{
+    margin: 80px 0;
+    display: flex;
+    gap: 20px;
+    flex: 1;
+    
+  }
+
+  .secondary-card-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .stories-main-card{
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 16px;
+    background-color: white;
+  }
+
+  .stories-main-card img{
+    width: 100%;
+    
+  }
+
+  .main-card-title{
+    margin: 40px;
+    padding: 0 60px 0 0 ;
+    font-size: 1.5rem;
+    font-family: "Quicksand", serif;
+  }
+
+  .mani-card-description{
+    font-family: "Raleway", serif;
+    font-size: 1rem;
+    line-height: 30px;
+    padding: 0 70px 35px 40px;
+  }
+
+  .btn-card{
+    padding: 15px 20px;
+    font-family: "Raleway", serif;
+    color: white;
+    font-size: 1rem;
+    border-radius: 50px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 40px;
+    border: none;
+    outline: none;
+  }
+
+  .story-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 16px;
+    background-color: white;
+  }
+
+  .story-card img{
+    width: 100%;
+  }
+
+  .story-card-title{
+    font-family: "Quicksand", serif;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 30px;
+    padding: 28px 38px;
+  }
+
+  .story-btn{
+    text-align: center;
+    padding-bottom: 60px;
+  }
+  
+
   /* responsive section */
 
   @media screen and (max-width: 576px) {
@@ -249,8 +344,18 @@
         
     }
 
+    .title{font-size: 2.5rem;}
+
     .icone{
         display: none;
+    }
+
+    .stories-main-card{
+      display: none;
+    }
+
+    .stories-secondery-card{
+      margin: 0 16px;
     }
     
   }
