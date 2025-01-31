@@ -180,6 +180,7 @@
     margin: 80px 0;
     text-align: center;
     
+    
   }
   .curriculum-card{
     padding: 52px 40px;
@@ -253,6 +254,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    
   }
 
   .stories-main-card{
@@ -260,6 +262,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 16px;
     background-color: white;
+    overflow: hidden;
   }
 
   .stories-main-card img{
@@ -298,6 +301,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 16px;
     background-color: white;
+    overflow: hidden;
   }
 
   .story-card img{
